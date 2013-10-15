@@ -1,5 +1,7 @@
 #!/usr/bin/python
-query = raw_input().lower() # can take a commandline argument or a piped text stream
+import fileinput
+query = ' '.join(fileinput.input()).lower() # can take a commandline argument or a piped text stream
+print "Searching for '",query,"'"
 with open('equation-database.txt','r') as f:
     for line in f:
         if '%%' in line:
