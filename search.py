@@ -1,7 +1,11 @@
 #!/usr/bin/python
-import fileinput
-query = ' '.join(fileinput.input()).lower() # can take a commandline argument or a piped text stream
-print "Searching for '",query,"'"
+import sys
+query = ''.join(sys.argv[1:]) # check commandline arguments first
+if query == '-': # if the only argument is '-', check stdin.
+    query = sys.stdin.readlines()
+if query == '': # if there's still nothing, then print a message and exit.
+    sys.exit("Usage: search <query here>")
+    
 with open('equation-database.txt','r') as f:
     for line in f:
         if '%%' in line:
