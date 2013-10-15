@@ -8,16 +8,19 @@ if query == '-': # if the only argument is '-', check stdin.
     query = sys.stdin.readlines()
 if query == '': # if there's still nothing, then print a message and exit.
     sys.exit("Usage: search <query here>")
+
+query_lowercase = query.lower() # we'll make the comparison in lowercase, too, so it's case insensitive
     
-with open(database,'r') as f:
-    for record in f.read().split('%%'):
-        if record == "":
-            pass
-        lines =  record.split('\n')
-        try:
-            first_line = lines[1].lower()
-            if query in first_line:
-                print record.strip()
-                print '--------------------------------------------------------------------------------'
-        except IndexError:
-            pass
+f = open(database,'r')
+for record in f.read().split('%%'):
+    if record == "":
+        pass
+    lines = record.split('\n')
+    try:
+        first_line_lowercase = lines[1].lower()
+        if query_lowercase in first_line_lowercase:
+            print record.strip()
+            print '--------------------------------------------------------------------------------'
+    except IndexError:
+        pass
+f.close()
