@@ -6,7 +6,7 @@ Quadratic Formula
 
 Unicode pretty-print:
       -b ± √(b²-4ac)
-x =   --------------
+x =  ‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
             2a
 LaTeX:
 $ x = \frac{-b \pm \sqrt{b^2 - 4 a c}}{2a} $
@@ -29,6 +29,13 @@ function [x1, x2] = quadratic_roots (a, b, c)
   x1 = -b + discriminant_sqrt
   x2 = -b - discriminant_sqrt
 endfunction
+
+Maxima:
+solve(a*x^2+b*x+c=0, x);
+             2                         2
+       sqrt(b  - 4 a c) + b      sqrt(b  - 4 a c) - b
+[x = - --------------------, x = --------------------]
+               2 a                       2 a
 %%
 Pythagorean theorem
 
@@ -63,10 +70,15 @@ Definition of a convolution
 (f * g)(x) = ∫ f(u) g(x-u) du, from u=-∞ to u=+∞
 %%
 Taylor series about x-a
-               f'(a)           f''(a)
-f(x) = f(a) + ------- (x-a) + -------- (x-a)² + ...
-                1!               2!
+               f'(a)            f''(a)
+f(x) = f(a) + ‒‒‒‒‒‒‒ (x-a) + ‒‒‒‒‒‒‒‒‒ (x-a)² + ...
+                 1!               2!
 %%
 Binomial approximation
 (1+x)ⁿ ≈ 1 + nx
+%%
+Time-independent Schrodinger/Schrödinger/Schroedinger equation (single non-relativisitc particle)
+            ℏ²
+E Ψ(r) = ‒ ‒‒‒‒ ∇²Ψ(r) + V(r) Ψ(r) 
+            2m
 %%
