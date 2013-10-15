@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import sys
+import os, sys
 directory = os.path.dirname(__file__)
 database = os.path.join(directory, './equation-database.txt')
 
