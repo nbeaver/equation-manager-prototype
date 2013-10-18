@@ -62,6 +62,9 @@ E = mc²
 %%
 Relativistic energy
 E = γm₀c²
+
+LaTeX:
+$E = \gamma m_0 c^2$
 %%
 Euler's formula (complex analysis)
 eⁱˣ = cos(x) + i sin(x)
@@ -81,4 +84,9 @@ Time-independent Schrodinger/Schrödinger/Schroedinger equation (single non-rela
             ℏ²
 E Ψ(r) = ‒ ‒‒‒‒ ∇²Ψ(r) + V(r) Ψ(r) 
             2m
+%%
+Exponential integral from zero to infinity
+∞                    ‒‒‒‒‒‒‒‒‒
+∫ exp(-ax²) x² dx = √ π/(16a³)
+0
 %%
