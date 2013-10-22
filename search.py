@@ -14,14 +14,17 @@ query_lowercase = query.lower() # We'll make the comparison in lowercase, too, s
 f = open(database,'r')
 
 def match(query, candidate):
-    # For the moment, just checking if the query is in the candidate string is sufficient.
+    """
+    Defining whether a query matches a candidate string.
+    For the moment, just checking if the query is in the candidate string is sufficient.
+    """
     if query in candidate:
         return True
     else:
         return False
 
 for record in f.read().split('%%'):
-    if record == "":
+    if record == "": # This happens for every comment line.
         pass
     lines = record.split('\n')
     try:
