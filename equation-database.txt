@@ -1,27 +1,31 @@
 %%
-%%
-%%
-%%
 Quadratic Formula
-
-Unicode pretty-print:
-      -b ± √(b²-4ac)
+            ‒‒‒‒‒‒
+      -b ± √b²-4ac
 x =  ‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
             2a
-LaTeX:
-$ x = \frac{-b \pm \sqrt{b^2 - 4 a c}}{2a} $
 
 AsciiMathML:
 (-b+-sqrt(b^2-4a c))/(2a)
 
-troff/eqn:
-x={-b +- sqrt{b sup 2 – 4ac}} over 2a
+LaTeX:
+$ x = \frac{-b \pm \sqrt{b^2 - 4 a c}}{2a} $
 
-python:
-def quadratic_roots(a, b, c):
-    import cmath
-    discriminant_sqrt = cmath.sqrt(b**2 - 4*a*c)
-    return (-b + discriminant_sqrt, -b - discriminant_sqrt)
+Mathematica:
+Solve[a x^2 + b x + c == 0, x]
+                  2                             2
+       -b - Sqrt[b  - 4 a c]         -b + Sqrt[b  - 4 a c]
+{{x -> ---------------------}, {x -> ---------------------}}
+                2 a                           2 a
+{{x -> (-b - Sqrt[b^2 - 4 a c])/(
+   2 a)}, {x -> (-b + Sqrt[b^2 - 4 a c])/(2 a)}}
+
+Maxima:
+solve(a*x^2+b*x+c=0, x);
+             2                         2
+       sqrt(b  - 4 a c) + b      sqrt(b  - 4 a c) - b
+[x = - --------------------, x = --------------------]
+               2 a                       2 a
 
 octave:
 function [x1, x2] = quadratic_roots (a, b, c)
@@ -30,16 +34,21 @@ function [x1, x2] = quadratic_roots (a, b, c)
   x2 = -b - discriminant_sqrt
 endfunction
 
-Maxima:
-solve(a*x^2+b*x+c=0, x);
-             2                         2
-       sqrt(b  - 4 a c) + b      sqrt(b  - 4 a c) - b
-[x = - --------------------, x = --------------------]
-               2 a                       2 a
+python:
+def quadratic_roots(a, b, c):
+    import cmath
+    discriminant_sqrt = cmath.sqrt(b**2 - 4*a*c)
+    return (-b + discriminant_sqrt, -b - discriminant_sqrt)
+
+Sage:
+(a,b,c,x)=var('a b c x'); solve(a*x^2 + b*x + c == 0, x)
+[x == -1/2*(b + sqrt(-4*a*c + b^2))/a, x == -1/2*(b - sqrt(-4*a*c + b^2))/a]
+
+troff/eqn:
+x={-b +- sqrt{b sup 2 – 4ac}} over 2a
+
 %%
 Pythagorean theorem
-
-Unicode pretty-print:
 a² + b² = c²
 
 LaTeX:
@@ -70,7 +79,9 @@ Euler's formula (complex analysis)
 eⁱˣ = cos(x) + i sin(x)
 %%
 Definition of a convolution
-(f * g)(x) = ∫ f(u) g(x-u) du, from u=-∞ to u=+∞
+             +∞ 
+(f * g)(x) = ∫ f(u) g(x-u) du
+            -∞
 %%
 Taylor series about x-a
                f'(a)            f''(a)
@@ -89,4 +100,32 @@ Exponential integral from zero to infinity
 ∞                    ‒‒‒‒‒‒‒‒‒
 ∫ exp(-ax²) x² dx = √ π/(16a³)
 0
+%%
+Small-angle (small angle) approximation.
+sin(x) ≈ x
+              x²
+cos(x) ≈ 1 - ‒‒‒ 
+              2
+tan(x) ≈ x
+%%
+Limit of sinc (sin x/x) function approaching 0.
+ lim  sin(x)
+ x→ 0 ‒‒‒‒‒‒ = 1
+         x
+ 
+LaTeX:
+\lim_{x \to 0} \frac{\sin(x)}{x} = 0
+
+Mathematica:
+Limit[Sin[x]/x, x -> 0]
+
+Maxima:
+limit (sin(x)/x, x, 0);
+
+Sage:
+limit(sin(x)/x, x = 0)
+%%
+Law of Cosines
+c² = a² + b² - 2 a b cos(θ)
+where θ is the angle formed by sides a and b.
 %%
