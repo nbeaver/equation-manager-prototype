@@ -6,6 +6,10 @@ This is a prototype of a text-based equation storage, processing, and retrieval 
 
 It is an excruciatingly simplistic implementation in python with a small textual database of equations.
 
+If you are curious about the motivation of this tool, see here:
+
+https://github.com/nbeaver/equation-manager-prototype
+
 The [database](equation-database.txt) is in the [cookie jar format](http://www.catb.org/esr/writings/taoup/html/ch05s02.html#id2902164), although for simplicity comments after the `%%` delimiters are not permitted.
 
 The first line of a record is a textual description of the equations. This is what gets matched in a search.
