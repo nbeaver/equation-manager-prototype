@@ -8,6 +8,8 @@ x =  ‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
 AsciiMathML:
 (-b+-sqrt(b^2-4a c))/(2a)
 
+C
+
 LaTeX:
 $ x = \frac{-b \pm \sqrt{b^2 - 4 a c}}{2a} $
 
@@ -83,7 +85,7 @@ Definition of a convolution
 (f * g)(x) = ∫ f(u) g(x-u) du
             -∞
 %%
-Taylor series about x-a
+Taylor series about x = a
                f'(a)            f''(a)
 f(x) = f(a) + ‒‒‒‒‒‒‒ (x-a) + ‒‒‒‒‒‒‒‒‒ (x-a)² + ...
                  1!               2!
@@ -91,7 +93,7 @@ f(x) = f(a) + ‒‒‒‒‒‒‒ (x-a) + ‒‒‒‒‒‒‒‒‒ (x-a)² 
 Binomial approximation
 (1+x)ⁿ ≈ 1 + nx
 %%
-Time-independent Schrodinger/Schrödinger/Schroedinger equation (single non-relativisitc particle)
+Time-independent Schrodinger/Schrödinger/Schroedinger equation (single non-relativistic particle)
             ℏ²
 E Ψ(r) = ‒ ‒‒‒‒ ∇²Ψ(r) + V(r) Ψ(r) 
             2m
