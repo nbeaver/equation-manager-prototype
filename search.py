@@ -1,4 +1,6 @@
 #!/usr/bin/python
+# This is released under the terms of the MIT license:
+# http://opensource.org/licenses/MIT
 import os, sys
 directory = os.path.dirname(__file__)
 database = os.path.join(directory, './equation-database.txt')
