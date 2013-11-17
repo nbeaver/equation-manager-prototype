@@ -131,3 +131,25 @@ Law of Cosines
 c² = a² + b² - 2 a b cos(θ)
 where θ is the angle formed by sides a and b.
 %%
+Angular diameter (apparent size/visual diameter/visual angle)
+δ = 2 arctan(d/2r)
+δ = angular diameter [radians]
+d = actual diameter [length]
+r = distance to object [length]
+
+LaTeX:
+\delta = 2 \arctan \left( \frac{d}{2D}\, \right),
+\delta \approx d / D
+
+https://en.wikipedia.org/wiki/Angular_diameter
+%%
+Sum of a geometric series (partial sum, first n terms)
+                                    n-1         1 - rⁿ
+a + ar² + ar³ + ar⁴ + ... + arⁿ⁻¹ =  ∑ arⁱ = a ‒‒‒‒‒‒‒
+                                    i=0         1 - r
+%%
+Sum of an infinite geometric series
+                             ∞          a
+a + ar² + ar³ + ar⁴ + ... =  ∑ arⁱ = ‒‒‒‒‒‒‒
+                            i=0       1 - r
+%%
