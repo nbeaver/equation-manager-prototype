@@ -153,3 +153,23 @@ Sum of an infinite geometric series
 a + ar² + ar³ + ar⁴ + ... =  ∑ arⁱ = ‒‒‒‒‒‒‒
                             i=0       1 - r
 %%
+Orthogonal projection of a vector along another vector (how much a vector is in the direction of another)
+      ͢  ͢
+ ͢    a∙v  ͢
+p = ‒‒‒‒ a
+     ‖a‖²
+where p is the orthogonal projection, v is the projectee, and a is the projector.
+%%
+Equation of state
+Any relationship between P (pressure), V (volume), and T (temperature) for a thermodynamic system, often summarized as:
+f(P, V, T) = 0
+For example, the ideal gas law can be written as
+PV - n k T = 0
+%%
+Angstrom symbol (Å)
+LaTeX: \AA
+Mathematica: Esc-Ang-Esc
+%%
+Degree symbol (°)
+LaTeX: \degree (with \usepackage{gensymb} package)
+Mathematica: Esc-deg-Esc
