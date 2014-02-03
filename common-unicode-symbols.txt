@@ -1,0 +1,54 @@
+Greek alphabet
+Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ  Τ Υ Φ Χ Ψ Ω
+α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ σς τ υ φ χ ψ ω
+
+Greek alphabet, subscript
+ᵦ ᵧ ᵨ ᵩ ᵪ
+
+Letter subscripts
+ₐ ₑ           ₕ     ₖ ₗ ₘ ₙ ₒ ₚ     ₛ ₜ ₓ           ₔ
+a b c d e f g h i j k l m n o p q r s t u v w x y z ə
+
+Number subscripts
+₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉
+
+Operator subscripts
+₊ ₋ ₌ ₍ ₎
+
+Letter superscripts
+ⁱ ⁿ
+
+Number superscripts
+⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹
+
+Operator superscripts
+⁺ ⁻ ⁼ ⁽ ⁾
+
+Equalities
+≃ ≈ ≡
+
+Inequalities
+≠ ≤ ≥  ≪ ≫
+
+Algebra
+√
+
+Vectors
+ ͢ ⨯ ∙ ‖
+
+Derivatives
+∂ ∆ ∇
+
+Integrals
+∫ ∬ ∭ ∮∰ ∱ ∲ ∳
+
+
+Tensors
+⊗
+
+Quantum mechanics
+ħ ‸
+
+Sources:
+http://en.wikipedia.org/wiki/Unicode_subscripts_and_superscripts
+http://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode
