@@ -6,7 +6,7 @@ Greek alphabet, subscript
 ᵦ ᵧ ᵨ ᵩ ᵪ
 
 Letter subscripts
-ₐ ₑ           ₕ     ₖ ₗ ₘ ₙ ₒ ₚ     ₛ ₜ ₓ           ₔ
+ₐ       ₑ     ₕ ᵢ ⱼ ₖ ₗ ₘ ₙ ₒ ₚ   ᵣ ₛ ₜ ᵤ ᵥ   ₓ     ₔ
 a b c d e f g h i j k l m n o p q r s t u v w x y z ə
 
 Number subscripts
