@@ -24,6 +24,9 @@ Number superscripts
 Operator superscripts
 ⁺ ⁻ ⁼ ⁽ ⁾
 
+Fractions (horizontal bar)
+――
+
 Equalities
 ≃ ≈ ≡
 
