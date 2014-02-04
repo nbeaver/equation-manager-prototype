@@ -173,3 +173,8 @@ Mathematica: Esc-Ang-Esc
 Degree symbol (°)
 LaTeX: \degree (with \usepackage{gensymb} package)
 Mathematica: Esc-deg-Esc
+%%
+Lenz's Law (Faraday's law of induction)
+      ∂Φ
+ε = - ‒‒‒ 
+      ∂t
