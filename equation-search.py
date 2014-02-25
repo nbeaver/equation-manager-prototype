@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # This is released under the terms of the MIT license:
 # http://opensource.org/licenses/MIT
 import os, sys
