@@ -178,3 +178,18 @@ Lenz's Law (Faraday's law of induction)
       ∂Φ
 ε = - ‒‒‒ 
       ∂t
+%%
+Levi-Civita symbol (totally antisymmetric tensor, written epsilon)
+       ⎧ +1 for (i,j,k) = (1,2,3) and cyclic permutations
+εᵢⱼₖ = ⎨  0 for any subscript the same
+       ⎩ -1 for (i,j,k) = (3,2,1) and cyclic permutations
+
+LaTeX: \epsilon_{ijk}
+%%
+Kronecker delta
+   ⎧ 1 for i = j
+δᵢⱼ⎨  
+   ⎩ 0 for i ≠ j
+
+LaTeX: \delta_{ij}
+%%
