@@ -2,8 +2,8 @@
 # This is released under the terms of the MIT license:
 # http://opensource.org/licenses/MIT
 import os, sys
-directory = os.path.dirname(__file__)
-database = os.path.join(directory, './equation-database.txt')
+directory = sys.path[0]
+database = os.path.join(directory, 'equation-database.txt')
 
 query = ''.join(sys.argv[1:]) # Check commandline arguments first.
 if query == '-': # If the only argument is '-', check stdin.
