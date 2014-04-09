@@ -193,3 +193,22 @@ Kronecker delta
 
 LaTeX: \delta_{ij}
 %%
+wavenumber (non-relativistic matter wave) in terms of energy and mass
+     ___
+    √2mE
+k = ‒‒‒‒
+     ℏ
+%%
+critical angle for total internal reflection
+
+             n₂
+Θ₁ = arcsin ――――
+             n₁
+%%
+numerical aperture
+
+NA = nᵢ sin Θₘₐₓ
+
+nᵢ = refractive index of medium lens is in
+
+NA = radius/working distance
