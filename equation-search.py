@@ -12,8 +12,6 @@ if query == '': # If there's still nothing, then print a message and exit.
     sys.exit("Usage: search <query here>")
 
 query_lowercase = query.lower() # We'll make the comparison in lowercase, too, so it's case-insensitive.
-    
-f = open(database,'r')
 
 def match(query, candidate):
     """
@@ -25,7 +23,12 @@ def match(query, candidate):
     else:
         return False
 
-for record in f.read().split('%%'):
+# This will put the entire database into memory.
+# Currently it is small enough that this does not matter.
+with open(database, 'r') as f:
+    records = f.read().split('%%')
+
+for record in records:
     if record == "": # This happens for every comment line.
         pass
     lines = record.split('\n')
@@ -38,4 +41,3 @@ for record in f.read().split('%%'):
             print '--------------------------------------------------------------------------------'
     except IndexError: # This happens if, e.g. there's an empty record so len(lines)==0.
         pass
-f.close()
