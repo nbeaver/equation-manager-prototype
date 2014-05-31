@@ -1,7 +1,7 @@
 %%
 Quadratic Formula
             ‒‒‒‒‒‒
-      -b ± √b²-4ac
+      −b ± √b²-4ac
 x =  ‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
             2a
 
@@ -82,12 +82,12 @@ eⁱˣ = cos(x) + i sin(x)
 %%
 Definition of a convolution
              +∞ 
-(f * g)(x) = ∫ f(u) g(x-u) du
-            -∞
+(f * g)(x) = ∫ f(u) g(x − u) du
+            −∞
 %%
 Taylor series about x = a
-               f'(a)            f''(a)
-f(x) = f(a) + ‒‒‒‒‒‒‒ (x-a) + ‒‒‒‒‒‒‒‒‒ (x-a)² + ...
+               f′(a)            f′′(a)
+f(x) = f(a) + ‒‒‒‒‒‒‒ (x − a) + ‒‒‒‒‒‒‒‒‒ (x − a)² + ...
                  1!               2!
 %%
 Binomial approximation
@@ -100,13 +100,13 @@ E Ψ(r) = ‒ ‒‒‒‒ ∇²Ψ(r) + V(r) Ψ(r)
 %%
 Exponential integral from zero to infinity
 ∞                    ‒‒‒‒‒‒‒‒‒
-∫ exp(-ax²) x² dx = √ π/(16a³)
+∫ exp(a − x²) x² dx = √ π/(16a³)
 0
 %%
 Small-angle (small angle) approximation.
 sin(x) ≈ x
               x²
-cos(x) ≈ 1 - ‒‒‒ 
+cos(x) ≈ 1 − ‒‒‒ 
               2
 tan(x) ≈ x
 %%
@@ -128,7 +128,7 @@ Sage:
 limit(sin(x)/x, x = 0)
 %%
 Law of Cosines
-c² = a² + b² - 2 a b cos(θ)
+c² = a² + b² − 2 a b cos(θ)
 where θ is the angle formed by sides a and b.
 %%
 Angular diameter (apparent size/visual diameter/visual angle)
@@ -144,14 +144,14 @@ LaTeX:
 https://en.wikipedia.org/wiki/Angular_diameter
 %%
 Sum of a geometric series (partial sum, first n terms)
-                                    n-1         1 - rⁿ
+                                    n−1         1 − rⁿ
 a + ar² + ar³ + ar⁴ + ... + arⁿ⁻¹ =  ∑ arⁱ = a ‒‒‒‒‒‒‒
-                                    i=0         1 - r
+                                    i=0         1 − r
 %%
 Sum of an infinite geometric series
                              ∞          a
 a + ar² + ar³ + ar⁴ + ... =  ∑ arⁱ = ‒‒‒‒‒‒‒
-                            i=0       1 - r
+                            i=0       1 − r
 %%
 Orthogonal projection of a vector along another vector (how much a vector is in the direction of another)
       ͢  ͢
@@ -164,7 +164,7 @@ Equation of state
 Any relationship between P (pressure), V (volume), and T (temperature) for a thermodynamic system, often summarized as:
 f(P, V, T) = 0
 For example, the ideal gas law can be written as
-PV - n k T = 0
+PV − n k T = 0
 %%
 Angstrom symbol (Å)
 LaTeX: \AA
@@ -176,13 +176,13 @@ Mathematica: Esc-deg-Esc
 %%
 Lenz's Law (Faraday's law of induction)
       ∂Φ
-ε = - ‒‒‒ 
+ε = − ‒‒‒ 
       ∂t
 %%
 Levi-Civita symbol (totally antisymmetric tensor, written epsilon)
        ⎧ +1 for (i,j,k) = (1,2,3) and cyclic permutations
 εᵢⱼₖ = ⎨  0 for any subscript the same
-       ⎩ -1 for (i,j,k) = (3,2,1) and cyclic permutations
+       ⎩ −1 for (i,j,k) = (3,2,1) and cyclic permutations
 
 LaTeX: \epsilon_{ijk}
 %%
@@ -198,6 +198,8 @@ wavenumber (non-relativistic matter wave) in terms of energy and mass
     √2mE
 k = ‒‒‒‒
      ℏ
+
+LaTeX: k = \frac{\sqrt{2mE}}{\hbar}
 %%
 critical angle for total internal reflection
 
@@ -212,3 +214,48 @@ NA = nᵢ sin Θₘₐₓ
 nᵢ = refractive index of medium lens is in
 
 NA = radius/working distance
+%%
+simple harmonic oscillator
+
+  d²x
+m ――― = − kx
+  d²t
+
+x(t) = A cos(ωt + φ)
+x(t) = B sin(ωt + φ)
+      
+     ___    2π
+ω = √k/m = ――― 
+            T
+     1
+U = ――― kx²
+     2
+%%
+damped harmonic oscillator
+TODO: add this
+%%
+driven damped harmonic oscillator
+TODO: add this
+%%
+Compton scattering
+         h
+λ′− λ = ――― (1 − cos θ)
+        mₑc
+
+λ′= final wavelength
+λ = initial wavelength
+h = Planck's constant
+mₑ= electron mass
+c = speed of light in a vacuum
+θ = scattering angle relative to λ
+      / λ′
+     /
+ λ  / θ
+―――>--------
+%%
+Lorentz transformation (boost in x-direction)
+t′ = γ(t − vx/c²)
+x′ = γ(x − vt)
+y′ = y
+z′ = z
+%%

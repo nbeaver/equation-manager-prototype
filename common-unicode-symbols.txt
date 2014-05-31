@@ -34,7 +34,11 @@ Inequalities
 ≠ ≤ ≥  ≪ ≫
 
 Algebra
+Square root symbol
 √
+ ⎸
+⎹ 
+ ⎷
 
 Vectors
  ͢ ⨯ ∙ ‖
@@ -51,6 +55,9 @@ Tensors
 
 Quantum mechanics
 ħ ‸
+
+Prime
+′
 
 Sources:
 http://en.wikipedia.org/wiki/Unicode_subscripts_and_superscripts
