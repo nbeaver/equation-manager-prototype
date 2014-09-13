@@ -59,6 +59,12 @@ Quantum mechanics
 Prime
 ′
 
+Degrees (angles and temperatures)
+°
+℃ (degrees Celsius)
+℉ (degrees Fahrenheit)
+K (Kelvin, not K)
+
 Sources:
 http://en.wikipedia.org/wiki/Unicode_subscripts_and_superscripts
 http://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode
