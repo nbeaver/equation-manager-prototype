@@ -23,6 +23,13 @@ Number superscripts
 
 Operator superscripts
 ⁺ ⁻ ⁼ ⁽ ⁾
+  -
+
+Operators
+minus − (not -, hyphen)
+plus +
+plus or minus ±
+minux or plus ∓
 
 Fractions (horizontal bar)
 ――

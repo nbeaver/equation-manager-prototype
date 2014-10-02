@@ -176,7 +176,7 @@ Mathematica: Esc-deg-Esc
 %%
 Lenz's Law (Faraday's law of induction)
       ∂Φ
-ε = − ‒‒‒ 
+ε = − ‒‒
       ∂t
 %%
 Levi-Civita symbol (totally antisymmetric tensor, written epsilon)
@@ -187,16 +187,16 @@ Levi-Civita symbol (totally antisymmetric tensor, written epsilon)
 LaTeX: \epsilon_{ijk}
 %%
 Kronecker delta
-   ⎧ 1 for i = j
-δᵢⱼ⎨  
-   ⎩ 0 for i ≠ j
+      ⎧ 1 for i = j
+δᵢⱼ = ⎨
+      ⎩ 0 for i ≠ j
 
 LaTeX: \delta_{ij}
 %%
 wavenumber (non-relativistic matter wave) in terms of energy and mass
      ___
     √2mE
-k = ‒‒‒‒
+k = ――――
      ℏ
 
 LaTeX: k = \frac{\sqrt{2mE}}{\hbar}
@@ -259,3 +259,7 @@ x′ = γ(x − vt)
 y′ = y
 z′ = z
 %%
+Absorption coefficient (for e.g. XAFS sample calculations)
+         dI
+μ(E) ≡ − ――
+         dx
