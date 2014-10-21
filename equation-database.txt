@@ -81,32 +81,32 @@ Euler's formula (complex analysis)
 eⁱˣ = cos(x) + i sin(x)
 %%
 Definition of a convolution
-             +∞ 
+             +∞
 (f * g)(x) = ∫ f(u) g(x − u) du
             −∞
 %%
 Taylor series about x = a
-               f′(a)            f′′(a)
-f(x) = f(a) + ‒‒‒‒‒‒‒ (x − a) + ‒‒‒‒‒‒‒‒‒ (x − a)² + ...
-                 1!               2!
+               f′(a)             f′′(a)
+f(x) = f(a) + ‒‒‒‒‒‒‒ (x − a) + ‒‒‒‒‒‒‒‒ (x − a)² + ...
+                 1!                2!
 %%
 Binomial approximation
 (1+x)ⁿ ≈ 1 + nx
 %%
 Time-independent Schrodinger/Schrödinger/Schroedinger equation (single non-relativistic particle)
             ℏ²
-E Ψ(r) = ‒ ‒‒‒‒ ∇²Ψ(r) + V(r) Ψ(r) 
+E Ψ(r) = ‒ ‒‒‒‒ ∇²Ψ(r) + V(r) Ψ(r)
             2m
 %%
 Exponential integral from zero to infinity
-∞                    ‒‒‒‒‒‒‒‒‒
+∞                      ‒‒‒‒‒‒‒‒‒
 ∫ exp(a − x²) x² dx = √ π/(16a³)
 0
 %%
 Small-angle (small angle) approximation.
 sin(x) ≈ x
               x²
-cos(x) ≈ 1 − ‒‒‒ 
+cos(x) ≈ 1 − ‒‒‒
               2
 tan(x) ≈ x
 %%
@@ -114,7 +114,7 @@ Limit of sinc (sin x/x) function approaching 0.
  lim  sin(x)
  x→ 0 ‒‒‒‒‒‒ = 1
          x
- 
+
 LaTeX:
 \lim_{x \to 0} \frac{\sin(x)}{x} = 0
 
@@ -223,9 +223,9 @@ m ――― = − kx
 
 x(t) = A cos(ωt + φ)
 x(t) = B sin(ωt + φ)
-      
+
      ___    2π
-ω = √k/m = ――― 
+ω = √k/m = ――――
             T
      1
 U = ――― kx²
@@ -263,3 +263,84 @@ Absorption coefficient (for e.g. XAFS sample calculations)
          dI
 μ(E) ≡ − ――
          dx
+%%
+Bayes theorem
+         P(B|A) P(A)
+P(A|B) = ―――――――――――
+            P(B)
+LaTeX:
+P(A|B) = \frac{P(B | A) \, P(A)}{P(B)}
+%%
+Absolute value (abs)
+
+       ⎧ −x for x ≥ 0
+|x| =  ⎨
+       ⎩  x for x < 0
+
+LaTeX:
+| | or \left| and \right| for e.g. \frac
+%%
+Multiplicity of an Einstein solid
+          ⎛q + N - 1⎞   (q + N − 1)!
+Ω(N, q) = ⎜         ⎟ = ――――――――――――
+          ⎝    q    ⎠    q!(N ― 1)!
+where:
+N = number of oscillators
+q = number of energy units
+
+Representation of example oscillator microstate with 3 oscillators and 2 units of energy:
+•|•||
+%%
+Multiplicity of a paramagnet
+
+        ⎛ N ⎞      N!
+Ω(N↑) = ⎜   ⎟ = ―――――――
+        ⎝ N↑⎠   N↑! N↓!
+%%
+Binomial coefficient (n choose k)
+
+Mathematica:
+    Binomial[10,3]
+
+Maxima:
+    binomial(10,3);
+
+Octave:
+    nchoosek(10,3)
+
+Python:
+    from scipy import misc
+    scipy.misc.comb(10,3,exact=True)
+or
+    import sympy
+    sympy.binomial(10,3)
+or
+    import gmpy
+    gmpy.comb(10,3)
+
+R:
+    choose(10,3)
+
+%%
+Factorial (integer only)
+
+LaTeX:
+$ n! $
+
+Mathematica:
+    100!
+or
+    Factorial[100]
+
+Python:
+    import math
+    math.factorial(100)
+
+Maxima:
+    factorial(100);
+%%
+Gamma function
+
+Python:
+    import math
+    math.gamma(3.2)
