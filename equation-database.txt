@@ -167,12 +167,17 @@ For example, the ideal gas law can be written as
 PV − n k T = 0
 %%
 Angstrom symbol (Å)
-LaTeX: \AA
-Mathematica: Esc-Ang-Esc
+LaTeX:
+    \AA
+Mathematica:
+    Esc-Ang-Esc
 %%
 Degree symbol (°)
-LaTeX: \degree (with \usepackage{gensymb} package)
-Mathematica: Esc-deg-Esc
+LaTeX:
+    \usepackage{gensymb}
+    \degree
+Mathematica:
+    Esc-deg-Esc
 %%
 Lenz's Law (Faraday's law of induction)
       ∂Φ
@@ -184,14 +189,16 @@ Levi-Civita symbol (totally antisymmetric tensor, written epsilon)
 εᵢⱼₖ = ⎨  0 for any subscript the same
        ⎩ −1 for (i,j,k) = (3,2,1) and cyclic permutations
 
-LaTeX: \epsilon_{ijk}
+LaTeX:
+    $ \epsilon_{ijk} $
 %%
 Kronecker delta
       ⎧ 1 for i = j
 δᵢⱼ = ⎨
       ⎩ 0 for i ≠ j
 
-LaTeX: \delta_{ij}
+LaTeX:
+    $ \delta_{ij} $
 %%
 wavenumber (non-relativistic matter wave) in terms of energy and mass
      ___
@@ -199,7 +206,8 @@ wavenumber (non-relativistic matter wave) in terms of energy and mass
 k = ――――
      ℏ
 
-LaTeX: k = \frac{\sqrt{2mE}}{\hbar}
+LaTeX:
+    $ k = \frac{\sqrt{2mE}}{\hbar} $
 %%
 critical angle for total internal reflection
 
@@ -269,7 +277,7 @@ Bayes theorem
 P(A|B) = ―――――――――――
             P(B)
 LaTeX:
-P(A|B) = \frac{P(B | A) \, P(A)}{P(B)}
+   $ P(A|B) = \frac{P(B | A) \, P(A)}{P(B)} $
 %%
 Absolute value (abs)
 
@@ -278,7 +286,10 @@ Absolute value (abs)
        ⎩  x for x < 0
 
 LaTeX:
-| | or \left| and \right| for e.g. \frac
+    | |
+or
+    $ \left| \right| $
+    for e.g. \frac
 %%
 Multiplicity of an Einstein solid
           ⎛q + N - 1⎞   (q + N − 1)!
@@ -332,6 +343,9 @@ Mathematica:
 or
     Factorial[100]
 
+Octave:
+   factorial(100)
+
 Python:
     import math
     math.factorial(100)
@@ -340,7 +354,20 @@ Maxima:
     factorial(100);
 %%
 Gamma function
+Γ(n) = (n − 1)!
+
+Maxima:
+    gamma(3.2);
+
+Octave:
+    gamma(3.2)
 
 Python:
     import math
     math.gamma(3.2)
+%%
+Bragg's law/Bragg condition
+n λ = 2d sin θ
+
+LaTeX:
+$ n \lambda = 2 d \sin \theta $
