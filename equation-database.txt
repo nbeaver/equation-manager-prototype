@@ -111,9 +111,9 @@ cos(x) ≈ 1 − ‒‒‒
 tan(x) ≈ x
 %%
 Limit of sinc (sin x/x) function approaching 0.
- lim  sin(x)
- x→ 0 ‒‒‒‒‒‒ = 1
-         x
+ lim sin(x)
+ x→0 ‒‒‒‒‒‒ = 1
+        x
 
 LaTeX:
 \lim_{x \to 0} \frac{\sin(x)}{x} = 0
@@ -310,6 +310,9 @@ Multiplicity of a paramagnet
 %%
 Binomial coefficient (n choose k)
 
+Julia:
+    binomial(10,3)
+
 Mathematica:
     Binomial[10,3]
 
@@ -335,8 +338,11 @@ R:
 %%
 Factorial (integer only)
 
+Julia:
+    factorial(BigInt(100))
+
 LaTeX:
-$ n! $
+    $ n! $
 
 Mathematica:
     100!
@@ -355,6 +361,9 @@ Maxima:
 %%
 Gamma function
 Γ(n) = (n − 1)!
+
+Julia:
+    gamma(3.2)
 
 Maxima:
     gamma(3.2);
