@@ -11,14 +11,13 @@ if query == '-': # If the only argument is '-', check stdin.
 if query == '': # If there's still nothing, then print a message and exit.
     sys.exit("Usage: search <query here>")
 
-query_lowercase = query.lower() # We'll make the comparison in lowercase, too, so it's case-insensitive.
-
 def match(query, candidate):
     """
     Defining whether a query matches a candidate string.
     For the moment, just checking if the query is in the candidate string is sufficient.
+    We'll do the comparison in lowercase so that the search is case-insensitive.
     """
-    if query in candidate:
+    if query.lower() in candidate.lower():
         return True
     else:
         return False
@@ -26,16 +25,11 @@ def match(query, candidate):
 # This will put the entire database into memory.
 # Currently it is small enough that this does not matter.
 with open(database, 'r') as f:
-    records = f.read().split('%%')
+    records = f.read().split('%%\n')
 
 for record in records:
-    if record == "": # This happens for every comment line.
-        pass
-    lines = record.split('\n')
     try:
-        first_line_lowercase = lines[1].lower()
-        # For the moment, we just check the first string of the record for matches to the query.
-        if match(query_lowercase, first_line_lowercase):
+        if match(query, record):
             print record.strip() # Remove the linefeeds
             # Add a visual separator between multiple matches.
             print '--------------------------------------------------------------------------------'
