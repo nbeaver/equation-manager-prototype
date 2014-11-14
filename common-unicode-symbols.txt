@@ -48,7 +48,13 @@ Square root symbol
  ⎷
 
 Vectors
- ͢ ⨯ ∙ ‖
+ ͢ vector decoration
+⨯ cross product
+⋅ dot operator, dot product, scalar product
+∙ bullet operator
+• bullet
+∧ exterior product
+‖ vector length
 
 Derivatives
 ∂ ∆ ∇
@@ -58,12 +64,13 @@ Integrals
 
 
 Tensors
-⊗
+⊗ Tensor product
 
 Quantum mechanics
-ħ ‸
+ħ h-bar
+‸ hat
 
-Prime
+Prime (e.g. for derivatives or variable pairs)
 ′
 
 Degrees (angles and temperatures)
@@ -82,3 +89,4 @@ Tall parenthesis and curly braces
 Sources:
 http://en.wikipedia.org/wiki/Unicode_subscripts_and_superscripts
 http://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode
+https://en.wikipedia.org/wiki/Interpunct
