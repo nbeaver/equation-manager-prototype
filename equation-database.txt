@@ -5,67 +5,65 @@ x =  ‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
             2a
 
 AsciiMathML:
-(-b+-sqrt(b^2-4a c))/(2a)
-
-C
+    (-b+-sqrt(b^2-4a c))/(2a)
 
 LaTeX:
-$ x = \frac{-b \pm \sqrt{b^2 - 4 a c}}{2a} $
+    $ x = \frac{-b \pm \sqrt{b^2 - 4 a c}}{2a} $
 
 Mathematica:
-Solve[a x^2 + b x + c == 0, x]
-                  2                             2
-       -b - Sqrt[b  - 4 a c]         -b + Sqrt[b  - 4 a c]
-{{x -> ---------------------}, {x -> ---------------------}}
-                2 a                           2 a
-{{x -> (-b - Sqrt[b^2 - 4 a c])/(
-   2 a)}, {x -> (-b + Sqrt[b^2 - 4 a c])/(2 a)}}
-
+    Solve[a x^2 + b x + c == 0, x]
+                      2                             2
+           -b - Sqrt[b  - 4 a c]         -b + Sqrt[b  - 4 a c]
+    {{x -> ---------------------}, {x -> ---------------------}}
+                    2 a                           2 a
+    {{x -> (-b - Sqrt[b^2 - 4 a c])/(
+       2 a)}, {x -> (-b + Sqrt[b^2 - 4 a c])/(2 a)}}
+    
 Maxima:
-solve(a*x^2+b*x+c=0, x);
-             2                         2
-       sqrt(b  - 4 a c) + b      sqrt(b  - 4 a c) - b
-[x = - --------------------, x = --------------------]
-               2 a                       2 a
+    solve(a*x^2+b*x+c=0, x);
+                 2                         2
+           sqrt(b  - 4 a c) + b      sqrt(b  - 4 a c) - b
+    [x = - --------------------, x = --------------------]
+                   2 a                       2 a
 
 octave:
-function [x1, x2] = quadratic_roots (a, b, c)
-  discriminant_sqrt = sqrt(b^2 - 4*a*c)
-  x1 = -b + discriminant_sqrt
-  x2 = -b - discriminant_sqrt
-endfunction
+    function [x1, x2] = quadratic_roots (a, b, c)
+      discriminant_sqrt = sqrt(b^2 - 4*a*c)
+      x1 = -b + discriminant_sqrt
+      x2 = -b - discriminant_sqrt
+    endfunction
 
 python:
-def quadratic_roots(a, b, c):
-    import cmath
-    discriminant_sqrt = cmath.sqrt(b**2 - 4*a*c)
-    return (-b + discriminant_sqrt, -b - discriminant_sqrt)
+    def quadratic_roots(a, b, c):
+        import cmath
+        discriminant_sqrt = cmath.sqrt(b**2 - 4*a*c)
+        return (-b + discriminant_sqrt, -b - discriminant_sqrt)
 
 Sage:
-(a,b,c,x)=var('a b c x'); solve(a*x^2 + b*x + c == 0, x)
-[x == -1/2*(b + sqrt(-4*a*c + b^2))/a, x == -1/2*(b - sqrt(-4*a*c + b^2))/a]
+    (a,b,c,x)=var('a b c x'); solve(a*x^2 + b*x + c == 0, x)
+    [x == -1/2*(b + sqrt(-4*a*c + b^2))/a, x == -1/2*(b - sqrt(-4*a*c + b^2))/a]
 
 troff/eqn:
-x={-b +- sqrt{b sup 2 – 4ac}} over 2a
+    x={-b +- sqrt{b sup 2 – 4ac}} over 2a
 
 %%
 Pythagorean theorem
 a² + b² = c²
 
 LaTeX:
-$a^2 + b^2 = c^2$
+    $a^2 + b^2 = c^2$
 
 AsciiMathML:
-a^2 + b^2 = c^2
+    a^2 + b^2 = c^2
 
 troff/eqn:
-a sup 2 + b sup 2 = c sup 2
+    a sup 2 + b sup 2 = c sup 2
 
 python:
-a**2 + b**2 == c**2
+    a**2 + b**2 == c**2
 
 octave:
-a^2 + b^2 == c^2
+    a^2 + b^2 == c^2
 %%
 Mass-energy equivalence (Einstein's famous relation)
 E = mc²
@@ -74,7 +72,7 @@ Relativistic energy
 E = γm₀c²
 
 LaTeX:
-$E = \gamma m_0 c^2$
+    $E = \gamma m_0 c^2$
 %%
 Euler's formula (complex analysis)
 eⁱˣ = cos(x) + i sin(x)
@@ -115,16 +113,16 @@ Limit of sinc (sin x/x) function approaching 0.
         x
 
 LaTeX:
-\lim_{x \to 0} \frac{\sin(x)}{x} = 0
+    \lim_{x \to 0} \frac{\sin(x)}{x} = 0
 
 Mathematica:
-Limit[Sin[x]/x, x -> 0]
+    Limit[Sin[x]/x, x -> 0]
 
 Maxima:
-limit (sin(x)/x, x, 0);
+    limit (sin(x)/x, x, 0);
 
 Sage:
-limit(sin(x)/x, x = 0)
+    limit(sin(x)/x, x = 0)
 %%
 Law of Cosines
 c² = a² + b² − 2 a b cos(θ)
@@ -137,8 +135,8 @@ d = actual diameter [length]
 r = distance to object [length]
 
 LaTeX:
-\delta = 2 \arctan \left( \frac{d}{2D}\, \right),
-\delta \approx d / D
+    \delta = 2 \arctan \left( \frac{d}{2D}\, \right),
+    \delta \approx d / D
 
 https://en.wikipedia.org/wiki/Angular_diameter
 %%
