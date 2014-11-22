@@ -205,6 +205,14 @@ k = ――――
 
 LaTeX:
     $ k = \frac{\sqrt{2mE}}{\hbar} $
+
+GNU Units:
+    You have: sqrt(2 m_e 30 eV ) / hbar
+    You want: 1/angstrom
+    	* 2.8060743
+    	/ 0.35636975
+
+
 %%
 critical angle for total internal reflection
 
