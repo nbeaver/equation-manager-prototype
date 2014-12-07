@@ -390,11 +390,25 @@ Wavelength and photon energy (X-ray shortcuts)
 ħωλ = hc = 1239.842 eV⋅nm
 
 GNU Units:
-    You have: hbar c
+    You have: h c
     You want: eV nm
-    	* 197.32697
-    	/ 0.0050677309
+    	* 1239.8419
+    	/ 0.00080655443
 
 Reference:
     X-ray Data Booklet.
     http://xdb.lbl.gov/xdb.pdf
+%%
+Newton's Law of Cooling
+dT(t)    −1
+――――― =  ――― ΔT(t)
+ dt       t₀
+
+where the time constant is
+     m cₚ 
+t₀ = ――――
+     h A
+m = mass
+cₚ = specific heat capacity
+h = heat transfer coefficient
+A = area of heat transfer
