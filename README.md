@@ -1,6 +1,6 @@
-====================================
-A minimal Unicode equation database.
-====================================
+=============================================================
+A minimal UTF-8 text equation database with simple searching.
+=============================================================
 
 Example usage:
 
@@ -8,17 +8,23 @@ Example usage:
 
 This is a prototype of a text-based equation storage, processing, and retrieval program.
 
-It is an excruciatingly simplistic implementation in python with a small textual database of equations.
+It is an excruciatingly simplistic implementation in ``python`` with a small textual database of equations.
 
 If you are curious about the motivation of this tool, see here:
 
-https://github.com/nbeaver/equation-manager-description
+<https://github.com/nbeaver/equation-manager-description>
 
-The [database](equation-database.txt) is in the [cookie jar format](http://www.catb.org/esr/writings/taoup/html/ch05s02.html#id2902164),
+The [database](equation-database.txt) is in the[cookie jar format](http://www.catb.org/esr/writings/taoup/html/ch05s02.html#id2902164),
 although for simplicity comments after the `%%` delimiters are not permitted.
+(Ideally this would be migrated to ``YAML``,
+which is a more standard format that also allows multiline block literals with newlines preserved,
+so the equations remain readable.
+See the [TODO list below](#TODO).)
+
+The entire record is matched in the search,
+which is case-insensitive.
 
 The first line (after the `%%`) of a record is a textual description of the equations.
-This is what gets matched in a search.
 
 After the first line is a unicode pretty-print of the equation,
 including symbols like Greek letters,
@@ -67,10 +73,26 @@ The textual database uses Unicode (specifically UTF-8) for many of the math char
 
 then you will need to install Unicode (UTF-8) encodings or supporting fonts to view the equations properly.
 
-See "Common Unicode Symbols" for some more examples.
+See [common-unicode-symbols.txt](common-unicode-symbols.txt) for some more examples.
 
 ----
 TODO
 ----
 
+Database:
 * Change database format into more easily parseable YAML.
+* Add MathML equation expressions.
+* Add OpenMath equation expressions.
+* Add internal cross references.
+* Add external references.
+* Add dimensions for each variable.
+* Add variants for e.g. Gaussian vs. SI units.
+
+Search tool:
+* Add case-sensitive search.
+* Search by symbols in equation.
+* Search by units.
+* Search by dimensions.
+* Return equations that have a subexpression matching the query (e.g. `a x^2 + b x + c` matches `c + b x`).
+* Return equations that are equivalent given simple substitution of variables (e.g. `a+b^2` matches `x+y^2`).
+* Search by algebraically equivalent form (e.g. `a(b+c)` matches `a b + a c`).
