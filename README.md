@@ -14,12 +14,16 @@ If you are curious about the motivation of this tool, see here:
 
 <https://github.com/nbeaver/equation-manager-description>
 
-The [database](equation-database.txt) is in the[cookie jar format](http://www.catb.org/esr/writings/taoup/html/ch05s02.html#id2902164),
+--------------------
+Database description
+--------------------
+
+The [database](equation-database.txt) is in the [cookie jar format](http://www.catb.org/esr/writings/taoup/html/ch05s02.html#id2902164),
 although for simplicity comments after the `%%` delimiters are not permitted.
-(Ideally this would be migrated to ``YAML``,
+(Ideally this would be migrated to [YAML](http://en.wikipedia.org/wiki/YAML),
 which is a more standard format that also allows multiline block literals with newlines preserved,
 so the equations remain readable.
-See the [TODO list below](#TODO).)
+See the [TODO list below](#todo).)
 
 The entire record is matched in the search,
 which is case-insensitive.
@@ -49,7 +53,14 @@ like [C](http://www.open-std.org/jtc1/sc22/wg14/),
 [Python](http://www.python.org/),
 and [Sage](http://www.sagemath.org/).
 
-The textual database uses Unicode (specifically UTF-8) for many of the math characters. If these characters don't show up correctly:
+-----------------
+Notes on encoding
+-----------------
+
+The textual database uses Unicode
+(specifically [UTF-8](http://en.wikipedia.org/wiki/UTF-8))
+for many of the math characters.
+If these characters don't show up correctly:
 
 → (right arrow)
 
