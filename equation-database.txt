@@ -412,3 +412,16 @@ m = mass
 cₚ = specific heat capacity
 h = heat transfer coefficient
 A = area of heat transfer
+%%
+Scherrer equation
+     K λ
+τ = ―――――
+    βcosθ
+τ = mean size of crystalline domains (length)
+K = shape factor or shape factor (close to 1.0, 0.89 for spheres, 0.94 for cubic grains)
+θ = Bragg angle
+λ = X-ray wavelength
+β = peak width (FWHM) (radians) a.k.a. Δ(2θ) or B(2θ)
+
+-- Not valid for microscale grains.
+-- Gives a lower bound on particle size.
