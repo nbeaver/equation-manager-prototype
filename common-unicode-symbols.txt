@@ -29,7 +29,7 @@ Operators
 minus − (not -, hyphen)
 plus +
 plus or minus ±
-minux or plus ∓
+minus or plus ∓
 
 Fractions (horizontal bar)
 ――
