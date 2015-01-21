@@ -18,7 +18,7 @@ Mathematica:
                     2 a                           2 a
     {{x -> (-b - Sqrt[b^2 - 4 a c])/(
        2 a)}, {x -> (-b + Sqrt[b^2 - 4 a c])/(2 a)}}
-    
+
 Maxima:
     solve(a*x^2+b*x+c=0, x);
                  2                         2
@@ -405,7 +405,7 @@ dT(t)    −1
  dt       t₀
 
 where the time constant is
-     m cₚ 
+     m cₚ
 t₀ = ――――
      h A
 m = mass
@@ -418,10 +418,29 @@ Scherrer equation
 τ = ―――――
     βcosθ
 τ = mean size of crystalline domains (length)
-K = shape factor or shape factor (close to 1.0, 0.89 for spheres, 0.94 for cubic grains)
-θ = Bragg angle
-λ = X-ray wavelength
+K = shape factor or shape factor (dimensionless)
+θ = Bragg angle (radians)
+λ = X-ray wavelength (length)
 β = peak width (FWHM) (radians) a.k.a. Δ(2θ) or B(2θ)
+
+Example values:
+τ =
+K = (close to 1.0, 0.89 for spheres, 0.94 for cubic grains)
+θ
+λ
+β
 
 -- Not valid for microscale grains.
 -- Gives a lower bound on particle size.
+%%
+Drag equation, drag force
+     1
+F =  ― ρ v² C A
+     2
+F = drag force (opposite flow velocity)
+ρ = mass density
+v = flow velocity
+C = drag coefficient (depends on speed, object, fluid density, and fluid viscosity, and Reynolds number)
+A = effective area
+%%
+Reynolds number
