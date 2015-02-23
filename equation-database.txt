@@ -315,6 +315,10 @@ Multiplicity of a paramagnet
 %%
 Binomial coefficient (n choose k)
 
+⎛n⎞      n!
+⎜ ⎟ = ――――――――
+⎝k⎠   k!(n-k)!
+
 Julia:
     binomial(10,3)
 
