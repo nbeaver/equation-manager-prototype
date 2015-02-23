@@ -1,35 +1,101 @@
 {
     "equations": [
         {
+            "name": "Angstrom symbol",
+            "description": "Symbol for the angstrom unit of length.",
+            "markup": {
+                "UTF-8": {
+                    "string": "Å",
+                    "URL": "http://unicode.org/cldr/utility/character.jsp?a=212B"
+                },
+                "HTML": {
+                    "string": "&Aring;",
+                    "string2": "&#x000C5;",
+                    "string3": "&#197;",
+                    "URL": "http://dev.w3.org/html5/html-author/charref"
+                },
+                "LaTeX": {
+                    "string": "\\AA"
+                },
+                "Mathematica": {
+                    "string": "\\[Angstrom]",
+                    "keystrokes": "[Esc]Ang[Esc]",
+                    "URL": "http://reference.wolfram.com/language/ref/character/Angstrom.html"
+                }
+            }
+        },
+        {
             "name": "Quadratic formula",
-            "description": "Solutions to quadratic equation.",
-            "UTF-8": [
-                "            ‒‒‒‒‒‒    ",
-                "      −b ± √b²-4ac    ",
-                "x =  ‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒",
-                "            2a        "
-            ]
+            "description": "Solutions to the quadratic equation.",
+            "markup": {
+                "UTF-8": {
+                    "multi-line string": [
+                        "            ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲   ",
+                        "      −b ± √b²-4ac    ",
+                        "x =  ‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒",
+                        "            2a        "
+                    ]
+                },
+                "AsciiMathML": {
+                    "string": "(-b +- sqrt(b^2 - 4a c)) / (2a)",
+                    "source": "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
+
+                },
+                "LaTeX": {
+                    "string": "x = \\frac{ -b \\pm \\sqrt{b^2 - 4ac} }{2a}",
+                    "source": "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
+                },
+                "LibreOffice Math": {
+                    "string" : "x = { -b +- sqrt {b^2 - 4ac} } over 2a",
+                    "source": "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
+                }
+            },
+            "references": {
+                "URLs": {
+                    "MathWorld" : "http://mathworld.wolfram.com/QuadraticFormula.html",
+                    "PlanetMath" : "http://planetmath.org/QuadraticFormula",
+                    "Wikipedia (English)" : "https://en.wikipedia.org/wiki/Quadratic_formula"
+                }
+            }
         },
         {
             "name": "Example entry",
             "description": "Not a real equation, just an example of the possible descriptors for one.",
-            "UTF-8": [
-                "Similar to ascii art; a Unicode representation of the equation",
-                "possibly split over several lines as an array of strings",
-                "so that it's easy to see the equation in the raw JSON."
-            ],
-            "AsciiMathML" : {
-                "description": "Markup for math in the browser.",
-                "priority": "optional",
-                "URL": "http://asciimath.org/"
+            "markup": {
+                "UTF-8": {
+                    "multi-line string": [
+                        "Similar to ascii art; a Unicode representation of the equation",
+                        "possibly split over several lines as an array of strings",
+                        "so that it's easy to see the equation in the raw JSON.",
+                        "Characters that may need to be escaped: ' (single quote) \" (double quote) \\ (backslash)."
+                    ]
+                },
+                "AsciiMathML": {
+                    "description": "Markup for math in the browser.",
+                    "priority": "optional",
+                    "URL": "http://asciimath.org/"
+                },
+                "eqn": {
+                    "description": "Preprocessor for writing equations in troff.",
+                    "URL": "http://www.troff.org/prog.html#eqn"
+                },
+                "LaTeX": {
+                    "description": "Documentation markup language designed for technical writing.",
+                    "URL": "http://latex-project.org/"
+                },
+                "LibreOffice Math": {
+                    "description": "Equation and formula editor of the LibreOffice suite.",
+                    "URL": "https://www.libreoffice.org/discover/math/"
+                }
             },
-            "eqn" : {
-                "description": "Preprocessor for writing equations in troff.",
-                "URL": "http://www.troff.org/prog.html#eqn"
-            },
-            "LaTeX" : {
-                "description": "Documentation markup language designed for technical writing.",
-                "URL": "http://latex-project.org/"
+            "references": {
+                "URLs": {
+                    "MathWorld" : "http://mathworld.wolfram.com/",
+                    "PlanetMath" : "http://planetmath.org/",
+                    "Wikipedia (English)" : "https://en.wikipedia.org/",
+                    "Wikipedia (Español)" :"https://es.wikipedia.org/wiki/Ecuaci%C3%B3n_de_segundo_grado#F.C3.B3rmula_cuadr.C3.A1tica"
+
+                }
             }
         }
     ]
