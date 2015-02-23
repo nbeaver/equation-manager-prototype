@@ -1,0 +1,36 @@
+{
+    "equations": [
+        {
+            "name": "Quadratic formula",
+            "description": "Solutions to quadratic equation.",
+            "UTF-8": [
+                "            ‒‒‒‒‒‒    ",
+                "      −b ± √b²-4ac    ",
+                "x =  ‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒",
+                "            2a        "
+            ]
+        },
+        {
+            "name": "Example entry",
+            "description": "Not a real equation, just an example of the possible descriptors for one.",
+            "UTF-8": [
+                "Similar to ascii art; a Unicode representation of the equation",
+                "possibly split over several lines as an array of strings",
+                "so that it's easy to see the equation in the raw JSON."
+            ],
+            "AsciiMathML" : {
+                "description": "Markup for math in the browser.",
+                "priority": "optional",
+                "URL": "http://asciimath.org/"
+            },
+            "eqn" : {
+                "description": "Preprocessor for writing equations in troff.",
+                "URL": "http://www.troff.org/prog.html#eqn"
+            },
+            "LaTeX" : {
+                "description": "Documentation markup language designed for technical writing.",
+                "URL": "http://latex-project.org/"
+            }
+        }
+    ]
+}
