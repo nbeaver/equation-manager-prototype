@@ -28,16 +28,15 @@ Maxima:
 
 octave:
     function [x1, x2] = quadratic_roots (a, b, c)
-      discriminant_sqrt = sqrt(b^2 - 4*a*c)
-      x1 = -b + discriminant_sqrt
-      x2 = -b - discriminant_sqrt
+      x1 = -b + sqrt(b^2 - 4*a*c) / 2*a
+      x2 = -b - sqrt(b^2 - 4*a*c) / 2*a
     endfunction
 
 python:
     def quadratic_roots(a, b, c):
         import cmath
-        discriminant_sqrt = cmath.sqrt(b**2 - 4*a*c)
-        return (-b + discriminant_sqrt, -b - discriminant_sqrt)
+        return ( (-b + cmath.sqrt(b**2 - 4*a*c)) / 2*a,
+                 (-b - cmath.sqrt(b**2 - 4*a*c)) / 2*a )
 
 Sage:
     (a,b,c,x)=var('a b c x'); solve(a*x^2 + b*x + c == 0, x)
@@ -130,6 +129,7 @@ where θ is the angle formed by sides a and b.
 %%
 Angular diameter (apparent size/visual diameter/visual angle)
 δ = 2 arctan(d/2r)
+where
 δ = angular diameter [radians]
 d = actual diameter [length]
 r = distance to object [length]

@@ -22,6 +22,13 @@
                     "keystrokes": "[Esc]Ang[Esc]",
                     "URL": "http://reference.wolfram.com/language/ref/character/Angstrom.html"
                 }
+            },
+            "value": {
+                "numeric": {
+                    "GNU Units": {
+                        "angstrom": "1e-10 m"
+                    }
+                }
             }
         },
         {
@@ -38,23 +45,37 @@
                 },
                 "AsciiMathML": {
                     "string": "(-b +- sqrt(b^2 - 4a c)) / (2a)",
-                    "source": "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
-
+                    "reference": "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
                 },
                 "LaTeX": {
                     "string": "x = \\frac{ -b \\pm \\sqrt{b^2 - 4ac} }{2a}",
-                    "source": "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
+                    "reference": "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
                 },
                 "LibreOffice Math": {
                     "string" : "x = { -b +- sqrt {b^2 - 4ac} } over 2a",
-                    "source": "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
+                    "reference": "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
+                }
+            },
+            "value": {
+                "numeric": {
+                    "GNU Octave": {
+                        "string": "function [x1, x2] = quadratic_roots (a, b, c)\n  x1 = -b + sqrt(b^2 - 4*a*c) / 2*a\n  x2 = -b - sqrt(b^2 - 4*a*c) / 2*a\nendfunction\n"
+                    },
+                    "python": {
+                        "string": "def quadratic_roots(a, b, c):\n    import cmath\n    return ( (-b + cmath.sqrt(b**2 - 4*a*c)) / 2*a,\n             (-b - cmath.sqrt(b**2 - 4*a*c)) / 2*a )\n"
+                    }
+                },
+                "symbolic": {
+                    "Mathematica": "Solve[a x^2 + b x + c == 0, x]",
+                    "Maxima": "solve(a*x^2+b*x+c=0, x);",
+                    "Sage": "(a,b,c,x)=var('a b c x'); solve(a*x^2 + b*x + c == 0, x)"
                 }
             },
             "references": {
                 "URLs": {
-                    "MathWorld" : "http://mathworld.wolfram.com/QuadraticFormula.html",
-                    "PlanetMath" : "http://planetmath.org/QuadraticFormula",
-                    "Wikipedia (English)" : "https://en.wikipedia.org/wiki/Quadratic_formula"
+                    "MathWorld": "http://mathworld.wolfram.com/QuadraticFormula.html",
+                    "PlanetMath": "http://planetmath.org/QuadraticFormula",
+                    "Wikipedia (English)": "https://en.wikipedia.org/wiki/Quadratic_formula"
                 }
             }
         },
@@ -90,10 +111,10 @@
             },
             "references": {
                 "URLs": {
-                    "MathWorld" : "http://mathworld.wolfram.com/",
-                    "PlanetMath" : "http://planetmath.org/",
-                    "Wikipedia (English)" : "https://en.wikipedia.org/",
-                    "Wikipedia (Español)" :"https://es.wikipedia.org/wiki/Ecuaci%C3%B3n_de_segundo_grado#F.C3.B3rmula_cuadr.C3.A1tica"
+                    "MathWorld": "http://mathworld.wolfram.com/",
+                    "PlanetMath": "http://planetmath.org/",
+                    "Wikipedia (English)": "https://en.wikipedia.org/",
+                    "Wikipedia (Español)":"https://es.wikipedia.org/wiki/Ecuaci%C3%B3n_de_segundo_grado#F.C3.B3rmula_cuadr.C3.A1tica"
 
                 }
             }
