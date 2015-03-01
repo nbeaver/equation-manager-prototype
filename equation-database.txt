@@ -438,9 +438,9 @@ K = (close to 1.0, 0.89 for spheres, 0.94 for cubic grains)
 -- Gives a lower bound on particle size.
 %%
 Drag equation, drag force
-     1
+     1         
 F =  ― ρ v² C A
-     2
+     2         
 F = drag force (opposite flow velocity)
 ρ = mass density
 v = flow velocity
@@ -448,3 +448,11 @@ C = drag coefficient (depends on speed, object, fluid density, and fluid viscosi
 A = effective area
 %%
 Reynolds number
+%%
+Area of a regular polygon.
+     1         ⎛π⎞
+A =  ― n l² cot⎜―⎟
+     4         ⎝n⎠
+A = area
+n = number of sides
+l = length of side
