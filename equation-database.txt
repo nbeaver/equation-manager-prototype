@@ -456,3 +456,12 @@ A =  ― n l² cot⎜―⎟
 A = area
 n = number of sides
 l = length of side
+%%
+Length of a chord.
+           ⎛θ⎞
+l = 2 R sin⎜―⎟
+           ⎝2⎠
+l = length of chord
+R = radius of circle
+θ = angle spanned by chord
+%%
