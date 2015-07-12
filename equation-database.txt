@@ -465,3 +465,13 @@ l = length of chord
 R = radius of circle
 θ = angle spanned by chord
 %%
+Volume of a circular conic frustum
+    π h
+V = ――― (R₁² + R₁ R₂ + R₂²)
+     3
+
+V  = volume of frustum
+h  = height of frustum
+R₁ = radius of base
+R₂ = radius of cap
+%%
