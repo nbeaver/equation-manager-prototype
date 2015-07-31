@@ -89,7 +89,19 @@ Tall parenthesis and curly braces
 ⎜ ⎟ ⎪ ⎪ ⎢ ⎥
 ⎝ ⎠ ⎩ ⎭ ⎣ ⎦
 
+Dotted Latin letters:
+abcdefghijklmnopqrstuvwxyz
+ȧḃċḋėḟġḣ    ṁṅȯṗ ṙṡṫ  ẇẋẏż
+ȦḂĊḊĖḞĠḢİ   ṀṄȮṖ ṘṠṪ  ẆẊẎŻ
+
+Using combining dot above:
+ ̇k ̇l ̇u ̇v
+
+In my font, only u and v look very good.
+
 Sources:
 http://en.wikipedia.org/wiki/Unicode_subscripts_and_superscripts
 http://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode
 https://en.wikipedia.org/wiki/Interpunct
+https://en.wikipedia.org/wiki/Dot_%28diacritic%29
+https://en.wikipedia.org/wiki/List_of_Latin-script_letters
