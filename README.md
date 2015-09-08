@@ -98,6 +98,7 @@ Database:
 * Add external references.
 * Add dimensions for each variable.
 * Add variants for e.g. Gaussian vs. SI units.
+* Add RPN versions of equations.
 
 Search tool:
 * Add case-sensitive search.
