@@ -475,3 +475,12 @@ h  = height of frustum
 R₁ = radius of base
 R₂ = radius of cap
 %%
+Poisson statistics for radioactive decay.
+
+       Nⁿ exp(-N)
+P(n) = ――――――――――
+           n!
+
+P(n) = probability of n decays
+n    = number of decays
+N    = expected number of decays
