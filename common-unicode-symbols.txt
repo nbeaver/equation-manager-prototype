@@ -89,6 +89,9 @@ Tall parenthesis and curly braces
 ⎜ ⎟ ⎪ ⎪ ⎢ ⎥
 ⎝ ⎠ ⎩ ⎭ ⎣ ⎦
 
+Angle brackets
+〈〉
+
 Dotted Latin letters:
 abcdefghijklmnopqrstuvwxyz
 ȧḃċḋėḟġḣ    ṁṅȯṗ ṙṡṫ  ẇẋẏż
