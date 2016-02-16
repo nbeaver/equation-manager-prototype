@@ -86,6 +86,29 @@ then you will need to install Unicode (UTF-8) encodings or supporting fonts to v
 
 See [common-unicode-symbols.txt](common-unicode-symbols.txt) for some more examples.
 
+------------
+Design goals
+------------
+
+* Separate layout and computation.
+* Multiple possible entries for e.g. LaTeX markup.
+* Make it possible to substitute symbols.
+* Group multiple equations together, e.g. Lorentz transformations
+* Link to references, including URLs and paper references (BibTeX?)
+* ASCII-art diagrams
+
+* Quantities:
+    * Symbol
+    * Dimensions
+    * Unit
+* Forms of equations.
+* Terms in the expression.
+
+* Categories:
+    * Equations
+    * Solutions to equations
+    * Identities
+
 ----
 TODO
 ----
@@ -99,6 +122,8 @@ Database:
 * Add dimensions for each variable.
 * Add variants for e.g. Gaussian vs. SI units.
 * Add RPN versions of equations.
+
+* Fields to add:
 
 Search tool:
 * Add case-sensitive search.
