@@ -1,0 +1,93 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Kepler's Third Law",
+        "verbose": "Kepler's Third Law. Relates orbital radius to orbital period; valid for two-body systems and approximately valid for systems with a massive central body."
+    },
+    "markup": {
+        "AsciiMathML": [
+            {
+                "markup": "T^2 / a^3 = (4 pi^2) / (G (M + m))"
+            }
+        ],
+        "LaTeX": [
+            {
+                "markup": "$\\frac{T^2}{a^3} = \\frac{4 \pi^2}{G (M + m)}$"
+            }
+        ]
+    },
+    "relevant-links": {
+        {
+            "date-known-good": "2016-02-14",
+            "url": "http://mathworld.wolfram.com/QuadraticFormula.html"
+        },
+        {
+            "date-known-good": "2016-02-14",
+            "url": "http://planetmath.org/QuadraticFormula"
+        },
+        {
+            "date-known-good": "2016-02-14",
+            "url": "https://en.wikipedia.org/wiki/Quadratic_formula"
+        }
+    },
+    "unicode-pretty-print": {
+        "multiline": [
+            "T²       4 π²  ",
+            "‒‒ =  ‒‒‒‒‒‒‒‒‒",
+            "a³    G (M + m)"
+        ],
+        "one-line": "T²/a³ = 4π²/( G(M + m) )",
+        "parameters": {
+            "T" : {
+                "description": "Duration of orbital period",
+                "dimensionless": false,
+                "fixed-constant": false,
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Orbital_period"
+                ]
+            },
+            "a" : {
+                "description": "Semi-major axis distance",
+                "dimensionless": false,
+                "fixed-constant": false,
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Semi-major_axis"
+                ]
+            },
+            "π" : {
+                "description": "Diametric circle constant",
+                "dimensionless": true,
+                "fixed-constant": true,
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Pi"
+                ]
+            },
+            "G" : {
+                "description": "Gravitational constant",
+                "dimensionless": false,
+                "fixed-constant": true,
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Gravitational_constant"
+                ]
+            },
+            "M" : {
+                "description": "Central mass or mass of other body in binary system.",
+                "dimensionless": false,
+                "fixed-constant": false
+            },
+            "m" : {
+                "description": "Orbiting mass",
+                "dimensionless": false,
+                "fixed-constant": false
+            }
+        }
+    },
+    "uuid": "aab9ffc1-826c-416f-a62d-e5f3227d4ef2"
+}

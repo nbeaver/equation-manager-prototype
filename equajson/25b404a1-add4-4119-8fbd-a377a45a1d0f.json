@@ -1,0 +1,77 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Angstrom",
+        "verbose": "Ångström. Symbol for the angstrom unit of length."
+    },
+    "markup": {
+        "HTML": [
+            {
+                "markup": "&Aring;",
+                "urls": [
+                    "http://graphemica.com/%C3%85"
+                ]
+            },
+            {
+                "markup": "&#x000C5;",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
+                ]
+            },
+            {
+                "markup": "&#197;",
+                "url": [
+                    "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
+                ]
+            }
+        ],
+        "LaTeX": [
+            {
+                "markup": "\\AA",
+                "urls": [
+                    "http://tex.stackexchange.com/questions/24255/angstrom-not-working",
+                    "http://tex.stackexchange.com/questions/8952/how-can-i-get-capital-angstrom-symbol-to-appear-in-bibliography-using-bib-file",
+                    "http://mirrors.ctan.org/info/symbols/comprehensive/symbols-letter.pdf"
+                ]
+            },
+            {
+                "markup": "\r{A}",
+                "urls": [
+                    "http://tex.stackexchange.com/questions/24255/angstrom-not-working"
+                ]
+            }
+        ],
+        "Mathematica": {
+            {
+                "markup": "\\[Angstrom]",
+                "urls": [
+                    "http://reference.wolfram.com/language/ref/character/Angstrom.html"
+                ]
+            }
+        }
+    },
+    "relevant-links": {
+        {
+            "date-known-good": "2016-02-16",
+            "url": "http://unicode.org/cldr/utility/character.jsp?a=%E2%84%AB&B1=Show"
+        },
+        {
+            "date-known-good": "2016-02-16",
+            "url": "https://en.wikipedia.org/wiki/%C3%85ngstr%C3%B6m"
+        }
+    },
+    "unicode-pretty-print": {
+        "multiline": [
+            "Å"
+        ],
+        "one-line": "Å"
+    },
+    "uuid": "25b404a1-add4-4119-8fbd-a377a45a1d0f"
+}

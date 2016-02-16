@@ -1,0 +1,85 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Quadratic formula",
+        "verbose": "Quadratic formula, the two solutions to the quadractic equation."
+    },
+    "markup": {
+        "AsciiMathML": [
+            {
+                "markup": "(-b +- sqrt(b^2 - 4a c)) / (2a)",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
+                ]
+            }
+        ],
+        "LaTeX": [
+            {
+                "markup": "x = \\frac{ -b \\pm \\sqrt{b^2 - 4ac} }{2a}",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
+                ]
+            }
+        ],
+        "LibreOffice Math": [
+            {
+                "markup" : "x = { -b +- sqrt {b^2 - 4ac} } over 2a",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
+                ]
+            }
+        ]
+    },
+    "relevant-links": {
+        {
+            "date-known-good": "2016-02-14",
+            "url": "http://mathworld.wolfram.com/QuadraticFormula.html"
+        },
+        {
+            "date-known-good": "2016-02-14",
+            "url": "http://planetmath.org/QuadraticFormula"
+        },
+        {
+            "date-known-good": "2016-02-14",
+            "url": "https://en.wikipedia.org/wiki/Quadratic_formula"
+        }
+    },
+    "unicode-pretty-print": {
+        "multiline": [
+            "            ______  ",
+            "      −b ± √b²-4ac  ",
+            "x =  ‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒",
+            "            2a      "
+        ],
+        "one-line": "x = (−b ± √b²-4ac)/(2a)",
+        "parameters": {
+            "a" : {
+                "description": "Quadratic coefficient",
+                "dimensionless": true,
+                "fixed-constant": false
+            },
+            "b" : {
+                "description": "Linear coefficient",
+                "dimensionless": true,
+                "fixed-constant": false
+            },
+            "c" : {
+                "description": "Constant coefficient",
+                "dimensionless": true,
+                "fixed-constant": false
+            },
+            "x" : {
+                "description": "Variable",
+                "dimensionless": true,
+                "fixed-constant": false
+            }
+    },
+    "uuid": "aab9ffc1-826c-416f-a62d-e5f3227d4ef2"
+}
