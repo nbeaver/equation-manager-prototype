@@ -107,9 +107,9 @@ cos(x) ≈ 1 − ‒‒‒
 tan(x) ≈ x
 %%
 Limit of sinc (sin x/x) function approaching 0.
- lim sin(x)
- x→0 ‒‒‒‒‒‒ = 1
-        x
+ lim  sin(x)
+ x→ 0 ‒‒‒‒‒‒ = 1
+         x
 
 LaTeX:
     \lim_{x \to 0} \frac{\sin(x)}{x} = 0
