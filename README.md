@@ -2,6 +2,10 @@
 A minimal UTF-8 text equation database with simple searching.
 =============================================================
 
+NOTE: this project is deprecated. Please refer to this project instead:
+
+https://github.com/nbeaver/equajson
+
 Example usage:
 
     python search.py approximation
