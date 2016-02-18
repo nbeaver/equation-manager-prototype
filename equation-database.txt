@@ -488,3 +488,8 @@ P(n) = ――――――――――
 P(n) = probability of n decays
 n    = number of decays
 N    = expected number of decays
+%%
+Change of base for logarithm
+         logₙ x
+logₘ x = ――――――
+         logₙ m
