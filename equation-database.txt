@@ -43,7 +43,7 @@ Sage:
     [x == -1/2*(b + sqrt(-4*a*c + b^2))/a, x == -1/2*(b - sqrt(-4*a*c + b^2))/a]
 
 troff/eqn:
-    x={-b +- sqrt{b sup 2 – 4ac}} over 2a
+    x = {-b +- sqrt{b sup 2 – 4ac}} over 2a
 
 %%
 Pythagorean theorem
@@ -77,9 +77,11 @@ Euler's formula (complex analysis)
 eⁱˣ = cos(x) + i sin(x)
 %%
 Definition of a convolution
-             +∞
-(f * g)(x) = ∫ f(u) g(x − u) du
-            −∞
+              +∞
+             ⌠
+(f * g)(x) = ⎮ f(u) g(x − u) du
+             ⌡
+             −∞
 %%
 Taylor series about x = a
                f′(a)             f′′(a)
@@ -94,10 +96,12 @@ Time-independent Schrodinger/Schrödinger/Schroedinger equation (single non-rela
 E Ψ(r) = ‒ ‒‒‒‒ ∇²Ψ(r) + V(r) Ψ(r)
             2m
 %%
-Exponential integral from zero to infinity
-∞                      ‒‒‒‒‒‒‒‒‒
-∫ exp(a − x²) x² dx = √ π/(16a³)
-0
+Integral of an exponential function from zero to infinity
+  ∞                    _____
+⌠                    ⎹   π  
+⎮ exp(a − x²) x² dx =⎹ ‒‒‒‒‒
+⌡                     ⎷ 16a³
+ 0
 %%
 Small-angle (small angle) approximation.
 sin(x) ≈ x
@@ -142,12 +146,12 @@ https://en.wikipedia.org/wiki/Angular_diameter
 %%
 Sum of a geometric series (partial sum, first n terms)
                                     n−1         1 − rⁿ
-a + ar² + ar³ + ar⁴ + ... + arⁿ⁻¹ =  ∑ arⁱ = a ‒‒‒‒‒‒‒
+a + ar² + ar³ + ar⁴ + … + arⁿ⁻¹ =  ∑ arⁱ = a ‒‒‒‒‒‒‒
                                     i=0         1 − r
 %%
 Sum of an infinite geometric series
                              ∞          a
-a + ar² + ar³ + ar⁴ + ... =  ∑ arⁱ = ‒‒‒‒‒‒‒
+a + ar² + ar³ + ar⁴ + … =  ∑ arⁱ = ‒‒‒‒‒‒‒
                             i=0       1 − r
 %%
 Orthogonal projection of a vector along another vector (how much a vector is in the direction of another)
@@ -182,9 +186,9 @@ Lenz's Law (Faraday's law of induction)
       ∂t
 %%
 Levi-Civita symbol (totally antisymmetric tensor, written epsilon)
-       ⎧ +1 for (i,j,k) = (1,2,3) and cyclic permutations
+       ⎧ +1 for (i,j,k) = (1,2,3);(2,3,1);(3,1,2)
 εᵢⱼₖ = ⎨  0 for any subscript the same
-       ⎩ −1 for (i,j,k) = (3,2,1) and cyclic permutations
+       ⎩ −1 for (i,j,k) = (3,2,1);(2,1,3);(1,3,2)
 
 LaTeX:
     $ \epsilon_{ijk} $
@@ -260,7 +264,7 @@ Compton scattering
 h = Planck's constant
 mₑ= electron mass
 c = speed of light in a vacuum
-θ = scattering angle relative to λ
+θ = scattering angle relative to initial direction
       / λ′
      /
  λ  / θ
