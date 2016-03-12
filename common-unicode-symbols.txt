@@ -1,7 +1,7 @@
 Greek alphabet
-Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ  Τ Υ Φ Χ Ψ Ω
-α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ σς τ υ φ χ ψ ω
-  ϐ     ϵ     ϑ   ϰ           ϖ ϱ        ϕ      
+Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω
+α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ σ τ υ φ χ ψ ω
+  ϐ     ϵ     ϑ   ϰ           ϖ ϱ ς     ϕ      
 
 Greek alphabet, subscript
 ᵦ ᵧ ᵨ ᵩ ᵪ
@@ -44,9 +44,13 @@ Inequalities
 Algebra
 Square root symbol
 √
+⌈
  ⎸
 ⎹ 
  ⎷
+
+Logic
+¬ not
 
 Vectors
  ͢ vector decoration
@@ -87,9 +91,7 @@ Degrees (angles and temperatures)
 
 Tall parenthesis and curly braces
 ⎛ ⎞ ⎧ ⎫ ⎡ ⎤
-⎜ ⎟ ⎪ ⎪ ⎢ ⎥
 ⎜ ⎟ ⎨ ⎬ ⎢ ⎥
-⎜ ⎟ ⎪ ⎪ ⎢ ⎥
 ⎝ ⎠ ⎩ ⎭ ⎣ ⎦
 
 Angle brackets
@@ -99,6 +101,9 @@ Dotted Latin letters:
 abcdefghijklmnopqrstuvwxyz
 ȧḃċḋėḟġḣ    ṁṅȯṗ ṙṡṫ  ẇẋẏż
 ȦḂĊḊĖḞĠḢİ   ṀṄȮṖ ṘṠṪ  ẆẊẎŻ
+
+⎲
+⎳
 
 Using combining dot above:
  ̇k ̇l ̇u ̇v
