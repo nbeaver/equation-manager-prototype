@@ -145,21 +145,26 @@ LaTeX:
 https://en.wikipedia.org/wiki/Angular_diameter
 %%
 Sum of a geometric series (partial sum, first n terms)
-                                    n−1         1 − rⁿ
+                                  n−1         1 − rⁿ
 a + ar² + ar³ + ar⁴ + … + arⁿ⁻¹ =  ∑ arⁱ = a ‒‒‒‒‒‒‒
-                                    i=0         1 − r
+                                  i=0         1 − r
 %%
 Sum of an infinite geometric series
-                             ∞          a
+                           ∞          a
 a + ar² + ar³ + ar⁴ + … =  ∑ arⁱ = ‒‒‒‒‒‒‒
-                            i=0       1 − r
+                          i=0       1 − r
 %%
 Orthogonal projection of a vector along another vector (how much a vector is in the direction of another)
       ͢  ͢
  ͢    a⋅v  ͢
 p = ‒‒‒‒ a
      ‖a‖²
-where p is the orthogonal projection, v is the projectee, and a is the projector.
+where p is the orthogonal projection in the a direction, v is the projectee, and a is the projector.
+  v
+ ↗
+ →‒→
+p  a
+
 %%
 Equation of state
 Any relationship between P (pressure), V (volume), and T (temperature) for a thermodynamic system, often summarized as:
@@ -223,6 +228,8 @@ critical angle for total internal reflection
              n₂
 Θ₁ = arcsin ――――
              n₁
+
+θ 
 %%
 numerical aperture
 
@@ -408,14 +415,10 @@ Reference:
     http://xdb.lbl.gov/xdb.pdf
 %%
 Newton's Law of Cooling
-dT(t)    −1
-――――― =  ――― ΔT(t)
- dt       t₀
-
-where the time constant is
-     m cₚ
-t₀ = ――――
-     h A
+dT     h A    
+―― = − ―――― ΔT
+dt     m cₚ   
+where
 m = mass
 cₚ = specific heat capacity
 h = heat transfer coefficient
