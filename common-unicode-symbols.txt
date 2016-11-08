@@ -42,12 +42,9 @@ Inequalities
 ≠ ≤ ≥  ≪ ≫
 
 Algebra
-Square root symbol
+Square root (radical) symbol
 √
-⌈
- ⎸
-⎹ 
- ⎷
+⎷
 
 Logic
 ¬ not
@@ -68,7 +65,7 @@ Derivatives
 ∂ ∆ ∇
 
 Integrals
-∫ ∬ ∭ ∮∰ ∱ ∲ ∳
+∫ ∬ ∭ ∮ ∰ ∱ ∲ ∳
 ⌠
 ⎮
 ⌡
