@@ -10,3 +10,6 @@ validate_yaml : equation-database.yml validate-yaml.py Makefile
 
 test_query : equation-database.txt equation-search.py
 	equation-search.py "quadratic formula" > /dev/null
+
+README.html : README.md
+	markdown $< > $@
