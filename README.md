@@ -117,6 +117,7 @@ TODO
 ----
 
 Database:
+
 * Change database format into more easily parseable YAML.
 * Add MathML equation expressions.
 * Add OpenMath equation expressions.
@@ -129,6 +130,7 @@ Database:
 * Fields to add:
 
 Search tool:
+
 * Add case-sensitive search.
 * Search by symbols in equation.
 * Search by units.
